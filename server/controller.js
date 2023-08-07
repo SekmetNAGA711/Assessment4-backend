@@ -11,9 +11,9 @@ module.exports = {
     },
 
     findYourFortune: (req, res)=>{
-        const fortune = ['A faithful friend is a strong defense', 'A friend is a present you give yourself', 'A good time to finish up old tasks.', 'A pleasant surprise is waiting for you.', 'A smile is your personal welcome mat.' ]
-        let randomIndex = Math.floor(Math.random() * fortune.length);
-        let randomFortune = fortune[randomIndex];
+        const fortune = ['A faithful friend is a strong defense', 'A friend is a present you give yourself', 'A good time to finish up old tasks.', 'A pleasant surprise is waiting for you.', 'A smile is your personal welcome mat.' ];
+        let fortuneIndex = Math.floor(Math.random() * fortune.length);
+        let randomFortune = fortune[fortuneIndex];
         res.status(200).send(randomFortune);
     },
 

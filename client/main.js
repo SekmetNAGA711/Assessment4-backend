@@ -1,5 +1,5 @@
 const complimentBtn = document.getElementById("complimentButton")
-const getFortuneBtn = document.getElementById("#fortuneButton")
+const getFortuneBtn = document.getElementById("fortuneButton")
 const getRecordsBtn = document.querySelector('#getall')
 const getAllRecordsForm = document.querySelector('getallForm')
 const recordForm = document.querySelector('#recordsForm')
@@ -12,8 +12,7 @@ const recordContainer = document.querySelector('section')
 
 
 const getCompliment = () => {
-    axios.get("http://localhost:4000/api/compliment/")
-        .then(res => {
+    axios.get("http://localhost:4000/api/compliment/").then(res => {
             const data = res.data;
             alert(data);
     });
@@ -21,9 +20,8 @@ const getCompliment = () => {
 
 complimentBtn.addEventListener('click', getCompliment)
 
-const getFortune = ()=>{
-    axios.get("http://localhost:4000/api/findYourFortune/")
-        .then(res => {
+const getFortune = () => {
+    axios.get("http://localhost:4000/api/fortune/").then(res => {
             const data = res.data;
             alert(data);
     });
@@ -55,7 +53,7 @@ function createRecordCard(record) {
 
 const getRecords = () => {
     clearRecords()
-    axios.get('/api/records')
+    axios.get('http://localhost:4000/api/records/')
     .then((res)=>{
         console.log(res.data)
      res.data.forEach(createRecordCard)
