@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body class="container">
+    <div class="box1">
+      <h1>Outcomes Libray</h1>
+  
+        <p id="text">
+          Hello, friends! <br>
+          <br>
+          Welcome to the our libray.
+           <br>
+           <br>
+          Step right in and accept a compliment
+         </p>
+          <button id="complimentButton">Get a compliment</button>
+         
+          <p id="text2">Browse our records to find the right book to help you on your journey to hone in your 
+            skills in programming! You can also add to our collection to help other students
+            ✨ </p> 
+
+            <p id="text4">Before you go get a fortune</p>
+            <button id="fortuneButton">Get a fortune</button>
+
+    </div>
+
+
+<form class="card" id="task-form">
+  <h2>Add a Book to our list</h2>
+  <input type="text" id="task-input" placeholder="Add a book">
+  <button>Add</button>
+
+</form>
+
+
+
+<ul id="task-list"></ul>
+
+<section id ="getAll">
+  <br>
+  <button id="getAllBtn">Get All Collection</button>
+</section>
+
+<section id ="deleteOne">
+  <br>
+  <button id="deleteBtn">Delete book</button>
+  <br>
+  <input type="text" id="delet-input" placeholder="name of book">
+</section>
+
+<section id ="update">
+  <br>
+  <button id="updateBtn">Replace Book</button>
+  <br>
+  <input type="text" id="update-input" placeholder="name of book">
+</section>
+
+<br>
+
+
+<form id="contact">
+  <h2>Contact Us</h2>
+  Your name:
+  <input type="text">
+        Message:
+  <input type="textarea">
+  <br>
+  <label for="help">Tell us about your need:</label>
+
+  <textarea id="story" name="story" rows="5" cols="33">
+  
+  </textarea>
+  
+        <h2>How did you hear about us?</h2>
+  <label for="google">Google Search</label>
+  <br>
+  <input type="checkbox" id="google" value="Google">
+
+  <label for="friend">Friend</label>
+  <br>
+  <input type="checkbox" id="friend" value="Friend">
+
+  <label for="Other">Other</label>
+  <br>
+  <input type="checkbox" id="other" value="Other">
+
+  
+  
+
+  <input type="submit">
+
+</form>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="../node_modules/axios/dist/axios.min.js"></script> -->
+    <script src="main.js"></script>
+    
+  </body>
+</html>

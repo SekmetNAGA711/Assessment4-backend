@@ -1,0 +1,219 @@
+
+  body
+  {
+    position: relative;
+    background: url('./records.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+     
+    }
+
+    .box1 {
+      position: relative;
+      width: 820px;
+        min-height: 70px;
+        background-color:  #dac292;
+        border-radius: 8px;
+        box-shadow: 3px 8px 15px gray;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: wrap;
+        margin: 1px;
+        margin-top: 1px;
+      left: 600px;
+      padding-left: 5px;
+      padding-right: 5px ;
+        padding-top: 0px;
+      
+      }
+
+      #text {
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+    }
+    
+    #text2 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.3em;
+    }
+    
+    #text3 {
+       margin-left: 100px;
+       color: white;
+        /* font-weight: normal;
+        font-size: 1.3em; */
+    }
+
+    #text4 {
+      text-align: center;
+      font-weight: normal;
+      font-size: 1.3em;
+  }
+
+  #fortuneButton{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+      text-align: center;
+    }
+
+
+    #complimentButton{
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 40%;
+      font-size: 18px;
+        text-align: center;
+      }
+
+      #task-form{
+        position: relative;
+    width: 400px;
+    min-height: 130px;
+    background-color: #dac292;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    left: 200px;
+    padding-left: 1px;
+    padding-right: 1px;
+    bottom: 1px;
+    padding-bottom: 10px;
+      }
+
+ #getAll{
+  position: relative;
+	width: 400px;
+    min-height: 100px;
+    background-color:  #dac292;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    margin-bottom: 20px;
+	left: 195px;
+	padding-left: 1px;
+	padding-right: 1px;
+   
+    top: 0px;
+ }
+
+
+ #getAllBtn{
+  position: relative;
+   bottom: 0px;
+   font-weight: bold;
+   
+
+ }
+
+ #deleteOne {
+  position: relative;
+	width: 200px;
+    min-height: 100px;
+    background-color:  #dac292;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    margin-bottom: 20px;
+	left: 300px;
+	padding-left: 1px;
+	padding-right: 1px;
+   
+    top: 0px;
+ }
+
+ #update{
+ position: relative;
+	width: 200px;
+    min-height: 100px;
+    background-color:  #dac292;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    margin-bottom: 20px;
+	left: 300px;
+	padding-left: 1px;
+	padding-right: 1px;
+   
+    top: 0px;
+ }
+ 
+ #contact{
+  position: relative;
+  width: 620px;
+    min-height: 70px;
+    background-color:  #dac292;
+    border-radius: 8px;
+    box-shadow: 3px 8px 15px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: wrap;
+    margin: 1px;
+    margin-top: 1px;
+  left: 600px;
+  padding-left: 5px;
+  padding-right: 5px ;
+    padding-top: 0px;
+   
+ }
+
+  button:active {
+    background-color: var(--color-primary);
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  input, select {
+    width: 170px;
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 18px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  /* .card {
+    background-color: var(--lift);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+  } */
